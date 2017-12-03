@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B377C9131FD3836A0003CE9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9121FD3836A0003CE9F /* AppDelegate.m */; };
+		B377C9161FD3836A0003CE9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9151FD3836A0003CE9F /* ViewController.m */; };
+		B377C9191FD3836A0003CE9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B377C9171FD3836A0003CE9F /* Main.storyboard */; };
+		B377C91B1FD3836A0003CE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B377C91A1FD3836A0003CE9F /* Assets.xcassets */; };
+		B377C91E1FD3836A0003CE9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B377C91C1FD3836A0003CE9F /* LaunchScreen.storyboard */; };
+		B377C9211FD3836A0003CE9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9201FD3836A0003CE9F /* main.m */; };
+		B377C92B1FD3836A0003CE9F /* RShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C92A1FD3836A0003CE9F /* RShareTests.m */; };
+		B377C9361FD3836A0003CE9F /* RShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9351FD3836A0003CE9F /* RShareUITests.m */; };
+		B377C9531FD387720003CE9F /* RShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C94A1FD387710003CE9F /* RShareButton.m */; };
+		B377C9541FD387720003CE9F /* RShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C94C1FD387710003CE9F /* RShareManager.m */; };
+		B377C9551FD387720003CE9F /* RSharePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C94E1FD387710003CE9F /* RSharePanel.m */; };
+		B377C9561FD387720003CE9F /* RShareInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B377C9511FD387720003CE9F /* RShareInfo.m */; };
+		B377C9601FD388A60003CE9F /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B377C95F1FD388A60003CE9F /* libWeChatSDK.a */; };
+		B377C9641FD389700003CE9F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B377C9631FD389530003CE9F /* CFNetwork.framework */; };
+		B377C9651FD389780003CE9F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B377C9621FD389470003CE9F /* SystemConfiguration.framework */; };
+		B377C9671FD389980003CE9F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B377C9661FD389900003CE9F /* CoreTelephony.framework */; };
+		B377C9691FD389D70003CE9F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B377C9681FD389D60003CE9F /* libz.tbd */; };
+		B377C96B1FD389FF0003CE9F /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B377C96A1FD389FF0003CE9F /* libresolv.tbd */; };
+		B377C96D1FD38A170003CE9F /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B377C96C1FD38A170003CE9F /* libicucore.tbd */; };
+		B377C96F1FD38A740003CE9F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B377C96E1FD38A740003CE9F /* libc++.tbd */; };
+		B377C9731FD38AA30003CE9F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B377C9721FD38AA30003CE9F /* libsqlite3.0.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B377C9271FD3836A0003CE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B377C9061FD3836A0003CE9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B377C90D1FD3836A0003CE9F;
+			remoteInfo = RShare;
+		};
+		B377C9321FD3836A0003CE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B377C9061FD3836A0003CE9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B377C90D1FD3836A0003CE9F;
+			remoteInfo = RShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B377C90E1FD3836A0003CE9F /* RShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B377C9111FD3836A0003CE9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B377C9121FD3836A0003CE9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B377C9141FD3836A0003CE9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B377C9151FD3836A0003CE9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B377C9181FD3836A0003CE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B377C91A1FD3836A0003CE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B377C91D1FD3836A0003CE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B377C91F1FD3836A0003CE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B377C9201FD3836A0003CE9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B377C9261FD3836A0003CE9F /* RShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B377C92A1FD3836A0003CE9F /* RShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RShareTests.m; sourceTree = "<group>"; };
+		B377C92C1FD3836A0003CE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B377C9311FD3836A0003CE9F /* RShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B377C9351FD3836A0003CE9F /* RShareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RShareUITests.m; sourceTree = "<group>"; };
+		B377C9371FD3836A0003CE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B377C94A1FD387710003CE9F /* RShareButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RShareButton.m; sourceTree = "<group>"; };
+		B377C94B1FD387710003CE9F /* RShareInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RShareInfo.h; sourceTree = "<group>"; };
+		B377C94C1FD387710003CE9F /* RShareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RShareManager.m; sourceTree = "<group>"; };
+		B377C94D1FD387710003CE9F /* RSharePanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSharePanel.xib; sourceTree = "<group>"; };
+		B377C94E1FD387710003CE9F /* RSharePanel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSharePanel.m; sourceTree = "<group>"; };
+		B377C94F1FD387710003CE9F /* RShareButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RShareButton.h; sourceTree = "<group>"; };
+		B377C9501FD387720003CE9F /* RShareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RShareManager.h; sourceTree = "<group>"; };
+		B377C9511FD387720003CE9F /* RShareInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RShareInfo.m; sourceTree = "<group>"; };
+		B377C9521FD387720003CE9F /* RSharePanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSharePanel.h; sourceTree = "<group>"; };
+		B377C95C1FD388A60003CE9F /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		B377C95D1FD388A60003CE9F /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		B377C95E1FD388A60003CE9F /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		B377C95F1FD388A60003CE9F /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		B377C9621FD389470003CE9F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B377C9631FD389530003CE9F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B377C9661FD389900003CE9F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B377C9681FD389D60003CE9F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B377C96A1FD389FF0003CE9F /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		B377C96C1FD38A170003CE9F /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		B377C96E1FD38A740003CE9F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B377C9701FD38A880003CE9F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B377C9721FD38AA30003CE9F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B377C90B1FD3836A0003CE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B377C96D1FD38A170003CE9F /* libicucore.tbd in Frameworks */,
+				B377C9671FD389980003CE9F /* CoreTelephony.framework in Frameworks */,
+				B377C96F1FD38A740003CE9F /* libc++.tbd in Frameworks */,
+				B377C9651FD389780003CE9F /* SystemConfiguration.framework in Frameworks */,
+				B377C9641FD389700003CE9F /* CFNetwork.framework in Frameworks */,
+				B377C9731FD38AA30003CE9F /* libsqlite3.0.tbd in Frameworks */,
+				B377C9601FD388A60003CE9F /* libWeChatSDK.a in Frameworks */,
+				B377C9691FD389D70003CE9F /* libz.tbd in Frameworks */,
+				B377C96B1FD389FF0003CE9F /* libresolv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377C9231FD3836A0003CE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377C92E1FD3836A0003CE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B377C9051FD3836A0003CE9F = {
+			isa = PBXGroup;
+			children = (
+				B377C9101FD3836A0003CE9F /* RShare */,
+				B377C9291FD3836A0003CE9F /* RShareTests */,
+				B377C9341FD3836A0003CE9F /* RShareUITests */,
+				B377C90F1FD3836A0003CE9F /* Products */,
+				B377C9611FD389470003CE9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B377C90F1FD3836A0003CE9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B377C90E1FD3836A0003CE9F /* RShare.app */,
+				B377C9261FD3836A0003CE9F /* RShareTests.xctest */,
+				B377C9311FD3836A0003CE9F /* RShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B377C9101FD3836A0003CE9F /* RShare */ = {
+			isa = PBXGroup;
+			children = (
+				B377C95A1FD388A60003CE9F /* WechatOpenSDK */,
+				B377C9591FD388290003CE9F /* Share */,
+				B377C9111FD3836A0003CE9F /* AppDelegate.h */,
+				B377C9121FD3836A0003CE9F /* AppDelegate.m */,
+				B377C9141FD3836A0003CE9F /* ViewController.h */,
+				B377C9151FD3836A0003CE9F /* ViewController.m */,
+				B377C9171FD3836A0003CE9F /* Main.storyboard */,
+				B377C91A1FD3836A0003CE9F /* Assets.xcassets */,
+				B377C91C1FD3836A0003CE9F /* LaunchScreen.storyboard */,
+				B377C91F1FD3836A0003CE9F /* Info.plist */,
+				B377C9201FD3836A0003CE9F /* main.m */,
+			);
+			path = RShare;
+			sourceTree = "<group>";
+		};
+		B377C9291FD3836A0003CE9F /* RShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				B377C92A1FD3836A0003CE9F /* RShareTests.m */,
+				B377C92C1FD3836A0003CE9F /* Info.plist */,
+			);
+			path = RShareTests;
+			sourceTree = "<group>";
+		};
+		B377C9341FD3836A0003CE9F /* RShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B377C9351FD3836A0003CE9F /* RShareUITests.m */,
+				B377C9371FD3836A0003CE9F /* Info.plist */,
+			);
+			path = RShareUITests;
+			sourceTree = "<group>";
+		};
+		B377C9591FD388290003CE9F /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				B377C94F1FD387710003CE9F /* RShareButton.h */,
+				B377C94A1FD387710003CE9F /* RShareButton.m */,
+				B377C94B1FD387710003CE9F /* RShareInfo.h */,
+				B377C9511FD387720003CE9F /* RShareInfo.m */,
+				B377C9501FD387720003CE9F /* RShareManager.h */,
+				B377C94C1FD387710003CE9F /* RShareManager.m */,
+				B377C9521FD387720003CE9F /* RSharePanel.h */,
+				B377C94E1FD387710003CE9F /* RSharePanel.m */,
+				B377C94D1FD387710003CE9F /* RSharePanel.xib */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		B377C95A1FD388A60003CE9F /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B377C95B1FD388A60003CE9F /* OpenSDK1.8.0 */,
+			);
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		B377C95B1FD388A60003CE9F /* OpenSDK1.8.0 */ = {
+			isa = PBXGroup;
+			children = (
+				B377C95C1FD388A60003CE9F /* WXApi.h */,
+				B377C95D1FD388A60003CE9F /* WXApiObject.h */,
+				B377C95E1FD388A60003CE9F /* WechatAuthSDK.h */,
+				B377C95F1FD388A60003CE9F /* libWeChatSDK.a */,
+			);
+			path = OpenSDK1.8.0;
+			sourceTree = "<group>";
+		};
+		B377C9611FD389470003CE9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B377C9721FD38AA30003CE9F /* libsqlite3.0.tbd */,
+				B377C9701FD38A880003CE9F /* libsqlite3.tbd */,
+				B377C96E1FD38A740003CE9F /* libc++.tbd */,
+				B377C96C1FD38A170003CE9F /* libicucore.tbd */,
+				B377C96A1FD389FF0003CE9F /* libresolv.tbd */,
+				B377C9681FD389D60003CE9F /* libz.tbd */,
+				B377C9661FD389900003CE9F /* CoreTelephony.framework */,
+				B377C9631FD389530003CE9F /* CFNetwork.framework */,
+				B377C9621FD389470003CE9F /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B377C90D1FD3836A0003CE9F /* RShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B377C93A1FD3836A0003CE9F /* Build configuration list for PBXNativeTarget "RShare" */;
+			buildPhases = (
+				B377C90A1FD3836A0003CE9F /* Sources */,
+				B377C90B1FD3836A0003CE9F /* Frameworks */,
+				B377C90C1FD3836A0003CE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RShare;
+			productName = RShare;
+			productReference = B377C90E1FD3836A0003CE9F /* RShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B377C9251FD3836A0003CE9F /* RShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B377C93D1FD3836A0003CE9F /* Build configuration list for PBXNativeTarget "RShareTests" */;
+			buildPhases = (
+				B377C9221FD3836A0003CE9F /* Sources */,
+				B377C9231FD3836A0003CE9F /* Frameworks */,
+				B377C9241FD3836A0003CE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B377C9281FD3836A0003CE9F /* PBXTargetDependency */,
+			);
+			name = RShareTests;
+			productName = RShareTests;
+			productReference = B377C9261FD3836A0003CE9F /* RShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B377C9301FD3836A0003CE9F /* RShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B377C9401FD3836A0003CE9F /* Build configuration list for PBXNativeTarget "RShareUITests" */;
+			buildPhases = (
+				B377C92D1FD3836A0003CE9F /* Sources */,
+				B377C92E1FD3836A0003CE9F /* Frameworks */,
+				B377C92F1FD3836A0003CE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B377C9331FD3836A0003CE9F /* PBXTargetDependency */,
+			);
+			name = RShareUITests;
+			productName = RShareUITests;
+			productReference = B377C9311FD3836A0003CE9F /* RShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B377C9061FD3836A0003CE9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = rui;
+				TargetAttributes = {
+					B377C90D1FD3836A0003CE9F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					B377C9251FD3836A0003CE9F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B377C90D1FD3836A0003CE9F;
+					};
+					B377C9301FD3836A0003CE9F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B377C90D1FD3836A0003CE9F;
+					};
+				};
+			};
+			buildConfigurationList = B377C9091FD3836A0003CE9F /* Build configuration list for PBXProject "RShare" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B377C9051FD3836A0003CE9F;
+			productRefGroup = B377C90F1FD3836A0003CE9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B377C90D1FD3836A0003CE9F /* RShare */,
+				B377C9251FD3836A0003CE9F /* RShareTests */,
+				B377C9301FD3836A0003CE9F /* RShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B377C90C1FD3836A0003CE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B377C91E1FD3836A0003CE9F /* LaunchScreen.storyboard in Resources */,
+				B377C91B1FD3836A0003CE9F /* Assets.xcassets in Resources */,
+				B377C9191FD3836A0003CE9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377C9241FD3836A0003CE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377C92F1FD3836A0003CE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B377C90A1FD3836A0003CE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B377C9161FD3836A0003CE9F /* ViewController.m in Sources */,
+				B377C9211FD3836A0003CE9F /* main.m in Sources */,
+				B377C9531FD387720003CE9F /* RShareButton.m in Sources */,
+				B377C9541FD387720003CE9F /* RShareManager.m in Sources */,
+				B377C9131FD3836A0003CE9F /* AppDelegate.m in Sources */,
+				B377C9561FD387720003CE9F /* RShareInfo.m in Sources */,
+				B377C9551FD387720003CE9F /* RSharePanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377C9221FD3836A0003CE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B377C92B1FD3836A0003CE9F /* RShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377C92D1FD3836A0003CE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B377C9361FD3836A0003CE9F /* RShareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B377C9281FD3836A0003CE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B377C90D1FD3836A0003CE9F /* RShare */;
+			targetProxy = B377C9271FD3836A0003CE9F /* PBXContainerItemProxy */;
+		};
+		B377C9331FD3836A0003CE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B377C90D1FD3836A0003CE9F /* RShare */;
+			targetProxy = B377C9321FD3836A0003CE9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B377C9171FD3836A0003CE9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B377C9181FD3836A0003CE9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B377C91C1FD3836A0003CE9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B377C91D1FD3836A0003CE9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B377C9381FD3836A0003CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B377C9391FD3836A0003CE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B377C93B1FD3836A0003CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATLM62N4EW;
+				INFOPLIST_FILE = RShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RShare/WechatOpenSDK/OpenSDK1.8.0",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzr.RShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B377C93C1FD3836A0003CE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATLM62N4EW;
+				INFOPLIST_FILE = RShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RShare/WechatOpenSDK/OpenSDK1.8.0",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzr.RShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B377C93E1FD3836A0003CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzr.RShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RShare.app/RShare";
+			};
+			name = Debug;
+		};
+		B377C93F1FD3836A0003CE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzr.RShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RShare.app/RShare";
+			};
+			name = Release;
+		};
+		B377C9411FD3836A0003CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzr.RShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RShare;
+			};
+			name = Debug;
+		};
+		B377C9421FD3836A0003CE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzr.RShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B377C9091FD3836A0003CE9F /* Build configuration list for PBXProject "RShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B377C9381FD3836A0003CE9F /* Debug */,
+				B377C9391FD3836A0003CE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B377C93A1FD3836A0003CE9F /* Build configuration list for PBXNativeTarget "RShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B377C93B1FD3836A0003CE9F /* Debug */,
+				B377C93C1FD3836A0003CE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B377C93D1FD3836A0003CE9F /* Build configuration list for PBXNativeTarget "RShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B377C93E1FD3836A0003CE9F /* Debug */,
+				B377C93F1FD3836A0003CE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B377C9401FD3836A0003CE9F /* Build configuration list for PBXNativeTarget "RShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B377C9411FD3836A0003CE9F /* Debug */,
+				B377C9421FD3836A0003CE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B377C9061FD3836A0003CE9F /* Project object */;
+}
